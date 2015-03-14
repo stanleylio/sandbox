@@ -1,0 +1,9 @@
+*.py[cod]
+*.db
+*.db-wal
+*.db-shm
+*.tar
+*.gz
+*.exe
+*.csv
+*.ini
