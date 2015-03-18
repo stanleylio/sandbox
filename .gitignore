@@ -8,5 +8,7 @@
 *.csv
 *.ini
 
+.obsolete/
+
 sampling.py
 capture.py
