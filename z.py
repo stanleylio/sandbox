@@ -1,7 +1,3 @@
-# bbb edit 1
-# bbb edit 2
-# laptop edit 1
-
 import struct
 from zlib import crc32
 # see also: hashlib
