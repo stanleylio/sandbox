@@ -56,10 +56,11 @@ class Aanderaa_4330f(Thread):
         self.daemon = True
         self.start()
         PRINT('Aanderaa_4330f: initializing...')
-        for i in range(30):
+        for i in range(10):
+            PRINT('{}...'.format(30 - i))
             if self.read() is not None:
                 break
-            time.sleep(0.5)
+            time.sleep(1)
         if self.read() is None:
             raise Exception('Aanderaa_4330f: unable to read from optode')
 
