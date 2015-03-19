@@ -1,3 +1,5 @@
+# bbb edit 1
+
 import struct
 from zlib import crc32
 # see also: hashlib
